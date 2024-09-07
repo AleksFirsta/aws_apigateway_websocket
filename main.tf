@@ -11,7 +11,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-module "apigateway-v2-test" {
+module "apigateway-v2-test1" {
   source  = "terraform-aws-modules/apigateway-v2/aws"
   version = "5.2.0"
 # Disable creation of the API and all resources
