@@ -11,9 +11,8 @@ terraform {
 #   region = "us-east-1"
 # }
 
-module "apigateway-v2-test1" {
+module "apigatewayv2test1" {
   source  = "terraform-aws-modules/apigateway-v2/aws"
-  #source  = "git::https://github.com/terraform-aws-modules/terraform-aws-apigateway-v2.git"
   version = "5.2.0"
 # Disable creation of the API and all resources
   create = true
